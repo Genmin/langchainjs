@@ -205,7 +205,7 @@ importers:
         version: link:../libs/providers/langchain-xai
       '@layerup/layerup-security':
         specifier: ^1.6.0
-        version: 1.6.0(encoding@0.1.13)(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6)
+        version: 1.6.0(encoding@0.1.13)(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6)
       '@opensearch-project/opensearch':
         specifier: ^3.5.1
         version: 3.5.1
@@ -295,7 +295,7 @@ importers:
         version: 2.2.7
       exa-js:
         specifier: ^2.10.2
-        version: 2.11.0(encoding@0.1.13)(ws@5.2.4(bufferutil@4.1.0))
+        version: 2.11.0(encoding@0.1.13)(ws@8.20.0(bufferutil@4.1.0))
       firebase-admin:
         specifier: ^13.7.0
         version: 13.8.0(encoding@0.1.13)
@@ -316,25 +316,25 @@ importers:
         version: link:../libs/langchain
       langsmith:
         specifier: ^0.5.16
-        version: 0.5.21(@opentelemetry/api@1.9.1)(openai@6.34.0(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6))(ws@5.2.4(bufferutil@4.1.0))
+        version: 0.5.21(@opentelemetry/api@1.9.1)(openai@6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6))(ws@8.20.0(bufferutil@4.1.0))
       lorem-ipsum:
         specifier: ^2.0.8
         version: 2.0.8
       lunary:
         specifier: ^0.8.8
-        version: 0.8.8(@anthropic-ai/sdk@0.90.0(zod@4.3.6))(openai@6.34.0(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6))(react@19.2.5)
+        version: 0.8.8(@anthropic-ai/sdk@0.90.0(zod@4.3.6))(openai@6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6))(react@19.2.5)
       mariadb:
         specifier: ^3.5.2
         version: 3.5.2
       mem0ai:
         specifier: ^2.4.5
-        version: 2.4.6(@anthropic-ai/sdk@0.90.0(zod@4.3.6))(@azure/identity@4.13.1)(@azure/search-documents@12.2.0)(@cloudflare/workers-types@4.20260422.1)(@google/genai@1.50.1(@modelcontextprotocol/sdk@1.29.0(@cfworker/json-schema@4.1.1)(zod@4.3.6))(bufferutil@4.1.0))(@langchain/core@libs+langchain-core)(@mistralai/mistralai@1.15.1(bufferutil@4.1.0))(@qdrant/js-client-rest@1.17.0(typescript@6.0.3))(@supabase/supabase-js@2.104.0(bufferutil@4.1.0))(@types/jest@30.0.0)(@types/pg@8.20.0)(better-sqlite3@12.9.0)(cloudflare@4.5.0(encoding@0.1.13))(encoding@0.1.13)(groq-sdk@1.1.2)(neo4j-driver@6.0.1)(ollama@0.6.3)(pg@8.20.0)(redis@5.12.1(@opentelemetry/api@1.9.1))(ws@5.2.4(bufferutil@4.1.0))
+        version: 2.4.6(@anthropic-ai/sdk@0.90.0(zod@4.3.6))(@azure/identity@4.13.1)(@azure/search-documents@12.2.0)(@cloudflare/workers-types@4.20260422.1)(@google/genai@1.50.1(@modelcontextprotocol/sdk@1.29.0(@cfworker/json-schema@4.1.1)(zod@4.3.6))(bufferutil@4.1.0))(@langchain/core@libs+langchain-core)(@mistralai/mistralai@1.15.1(bufferutil@4.1.0))(@qdrant/js-client-rest@1.17.0(typescript@6.0.3))(@supabase/supabase-js@2.104.0(bufferutil@4.1.0))(@types/jest@30.0.0)(@types/pg@8.20.0)(better-sqlite3@12.9.0)(cloudflare@4.5.0(encoding@0.1.13))(encoding@0.1.13)(groq-sdk@1.1.2)(neo4j-driver@6.0.1)(ollama@0.6.3)(pg@8.20.0)(redis@5.12.1(@opentelemetry/api@1.9.1))(ws@8.20.0(bufferutil@4.1.0))
       mongodb:
         specifier: ^7.1.1
         version: 7.2.0(@aws-sdk/credential-providers@3.1034.0)(socks@2.8.7)
       openai:
         specifier: ^6.33.0
-        version: 6.34.0(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6)
+        version: 6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6)
       peggy:
         specifier: ^5.1.0
         version: 5.1.0
@@ -584,8 +584,8 @@ importers:
   libs/langchain:
     dependencies:
       '@langchain/langgraph':
-        specifier: https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph@71b7b0b
-        version: https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph@71b7b0b(@langchain/core@libs+langchain-core)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(zod-to-json-schema@3.25.2(zod@4.3.6))(zod@4.3.6)
+        specifier: https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph@ea62da3
+        version: https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph@ea62da3(@langchain/core@libs+langchain-core)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(zod-to-json-schema@3.25.2(zod@4.3.6))(zod@4.3.6)
       '@langchain/langgraph-checkpoint':
         specifier: ^1.0.1
         version: 1.0.1(@langchain/core@libs+langchain-core)
@@ -612,11 +612,11 @@ importers:
         specifier: workspace:*
         version: link:../providers/langchain-fireworks
       '@langchain/langgraph-api':
-        specifier: https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-api@71b7b0b
-        version: https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-api@71b7b0b(@langchain/core@libs+langchain-core)(@langchain/langgraph-checkpoint@1.0.1(@langchain/core@libs+langchain-core))(@langchain/langgraph-sdk@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-sdk@71b7b0b(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(@langchain/langgraph@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph@71b7b0b(@langchain/core@libs+langchain-core)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(zod-to-json-schema@3.25.2(zod@4.3.6))(zod@4.3.6))(@opentelemetry/api@1.9.1)(bufferutil@4.1.0)(openai@6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6))(typescript@5.8.3)(ws@8.20.0(bufferutil@4.1.0))
+        specifier: https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-api@ea62da3
+        version: https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-api@ea62da3(@langchain/core@libs+langchain-core)(@langchain/langgraph-checkpoint@1.0.1(@langchain/core@libs+langchain-core))(@langchain/langgraph-sdk@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-sdk@ea62da3(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(@langchain/langgraph@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph@ea62da3(@langchain/core@libs+langchain-core)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(zod-to-json-schema@3.25.2(zod@4.3.6))(zod@4.3.6))(@opentelemetry/api@1.9.1)(bufferutil@4.1.0)(openai@6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6))(typescript@5.8.3)(ws@8.20.0(bufferutil@4.1.0))
       '@langchain/langgraph-sdk':
-        specifier: https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-sdk@71b7b0b
-        version: https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-sdk@71b7b0b(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        specifier: https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-sdk@ea62da3
+        version: https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-sdk@ea62da3(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       '@langchain/openai':
         specifier: workspace:*
         version: link:../providers/langchain-openai
@@ -719,7 +719,7 @@ importers:
         version: 4.13.1
       '@browserbasehq/stagehand':
         specifier: ^1.3.0
-        version: 1.14.0(@playwright/test@1.59.1)(bufferutil@4.1.0)(deepmerge@4.3.1)(dotenv@17.4.2)(encoding@0.1.13)(openai@6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6))(zod@4.3.6)
+        version: 1.14.0(@playwright/test@1.59.1)(bufferutil@4.1.0)(deepmerge@4.3.1)(dotenv@17.4.2)(encoding@0.1.13)(openai@6.34.0(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6))(zod@4.3.6)
       '@clickhouse/client':
         specifier: ^0.2.5
         version: 0.2.10
@@ -812,7 +812,7 @@ importers:
         version: link:../providers/langchain-xai
       '@layerup/layerup-security':
         specifier: ^1.5.12
-        version: 1.6.0(encoding@0.1.13)(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6)
+        version: 1.6.0(encoding@0.1.13)(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6)
       '@opensearch-project/opensearch':
         specifier: ^2.2.0
         version: 2.13.0
@@ -881,7 +881,7 @@ importers:
         version: 1.2.0
       chromadb:
         specifier: ^1.5.3
-        version: 1.10.5(@google/generative-ai@0.7.1)(cohere-ai@7.21.0)(encoding@0.1.13)(ollama@0.6.3)(openai@6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6))
+        version: 1.10.5(@google/generative-ai@0.7.1)(cohere-ai@7.21.0)(encoding@0.1.13)(ollama@0.6.3)(openai@6.34.0(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6))
       cohere-ai:
         specifier: ^7.14.0
         version: 7.21.0
@@ -902,7 +902,7 @@ importers:
         version: 2.2.7
       exa-js:
         specifier: ^1.0.12
-        version: 1.10.2(encoding@0.1.13)(ws@8.20.0(bufferutil@4.1.0))
+        version: 1.10.2(encoding@0.1.13)(ws@5.2.4(bufferutil@4.1.0))
       firebase-admin:
         specifier: ^13.7.0
         version: 13.8.0(encoding@0.1.13)
@@ -923,19 +923,19 @@ importers:
         version: 2.0.8
       lunary:
         specifier: ^0.8.8
-        version: 0.8.8(@anthropic-ai/sdk@0.90.0(zod@4.3.6))(openai@6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6))(react@19.2.5)
+        version: 0.8.8(@anthropic-ai/sdk@0.90.0(zod@4.3.6))(openai@6.34.0(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6))(react@19.2.5)
       mariadb:
         specifier: ^3.5.1
         version: 3.5.2
       mem0ai:
         specifier: ^2.4.5
-        version: 2.4.6(@anthropic-ai/sdk@0.90.0(zod@4.3.6))(@azure/identity@4.13.1)(@azure/search-documents@12.2.0)(@cloudflare/workers-types@4.20260422.1)(@google/genai@1.50.1(@modelcontextprotocol/sdk@1.29.0(@cfworker/json-schema@4.1.1)(zod@4.3.6))(bufferutil@4.1.0))(@langchain/core@libs+langchain-core)(@mistralai/mistralai@1.15.1(bufferutil@4.1.0))(@qdrant/js-client-rest@1.17.0(typescript@5.8.3))(@supabase/supabase-js@2.104.0(bufferutil@4.1.0))(@types/jest@30.0.0)(@types/pg@8.20.0)(better-sqlite3@12.9.0)(cloudflare@4.5.0(encoding@0.1.13))(encoding@0.1.13)(groq-sdk@1.1.2)(neo4j-driver@6.0.1)(ollama@0.6.3)(pg@8.20.0)(redis@4.7.1)(ws@8.20.0(bufferutil@4.1.0))
+        version: 2.4.6(@anthropic-ai/sdk@0.90.0(zod@4.3.6))(@azure/identity@4.13.1)(@azure/search-documents@12.2.0)(@cloudflare/workers-types@4.20260422.1)(@google/genai@1.50.1(@modelcontextprotocol/sdk@1.29.0(@cfworker/json-schema@4.1.1)(zod@4.3.6))(bufferutil@4.1.0))(@langchain/core@libs+langchain-core)(@mistralai/mistralai@1.15.1(bufferutil@4.1.0))(@qdrant/js-client-rest@1.17.0(typescript@5.8.3))(@supabase/supabase-js@2.104.0(bufferutil@4.1.0))(@types/jest@30.0.0)(@types/pg@8.20.0)(better-sqlite3@12.9.0)(cloudflare@4.5.0(encoding@0.1.13))(encoding@0.1.13)(groq-sdk@1.1.2)(neo4j-driver@6.0.1)(ollama@0.6.3)(pg@8.20.0)(redis@4.7.1)(ws@5.2.4(bufferutil@4.1.0))
       mongodb:
         specifier: ^6.17.0
         version: 6.21.0(@aws-sdk/credential-providers@3.1034.0)(socks@2.8.7)
       openai:
         specifier: ^6.22.0
-        version: 6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6)
+        version: 6.34.0(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6)
       peggy:
         specifier: ^5.1.0
         version: 5.1.0
@@ -987,7 +987,7 @@ importers:
     optionalDependencies:
       langsmith:
         specifier: '>=0.4.0 <1.0.0'
-        version: 0.5.21(@opentelemetry/api@1.9.1)(openai@6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6))(ws@8.20.0(bufferutil@4.1.0))
+        version: 0.5.21(@opentelemetry/api@1.9.1)(openai@6.34.0(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6))(ws@5.2.4(bufferutil@4.1.0))
 
   libs/langchain-core:
     dependencies:
@@ -3395,6 +3395,7 @@ packages:
   '@hono/node-ws@1.3.0':
     resolution: {integrity: sha512-ju25YbbvLuXdqBCmLZLqnNYu1nbHIQjoyUqA8ApZOeL1k4skuiTcw5SW77/5SUYo2Xi2NVBJoVlfQurnKEp03Q==}
     engines: {node: '>=18.14.1'}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     peerDependencies:
       '@hono/node-server': '>=1.19.10'
       hono: '>=4.12.7'
@@ -3785,8 +3786,8 @@ packages:
     peerDependencies:
       apache-arrow: '>=15.0.0 <=18.1.0'
 
-  '@langchain/langgraph-api@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-api@71b7b0b':
-    resolution: {tarball: https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-api@71b7b0b}
+  '@langchain/langgraph-api@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-api@ea62da3':
+    resolution: {tarball: https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-api@ea62da3}
     version: 1.1.17
     engines: {node: ^18.19.0 || >=20.16.0}
     peerDependencies:
@@ -3811,8 +3812,8 @@ packages:
     peerDependencies:
       '@langchain/core': workspace:^
 
-  '@langchain/langgraph-checkpoint@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-checkpoint@71b7b0bd2ba61e71e3d8a1af512dd26fc4f3e7b8':
-    resolution: {tarball: https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-checkpoint@71b7b0bd2ba61e71e3d8a1af512dd26fc4f3e7b8}
+  '@langchain/langgraph-checkpoint@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-checkpoint@ea62da3d61586a249ec0911ac3b22d0e243b5ab1':
+    resolution: {tarball: https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-checkpoint@ea62da3d61586a249ec0911ac3b22d0e243b5ab1}
     version: 1.0.1
     engines: {node: '>=18'}
     peerDependencies:
@@ -3852,8 +3853,8 @@ packages:
       vue:
         optional: true
 
-  '@langchain/langgraph-sdk@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-sdk@71b7b0b':
-    resolution: {tarball: https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-sdk@71b7b0b}
+  '@langchain/langgraph-sdk@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-sdk@ea62da3':
+    resolution: {tarball: https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-sdk@ea62da3}
     version: 1.8.8
     peerDependencies:
       react: ^18 || ^19
@@ -3870,8 +3871,8 @@ packages:
       vue:
         optional: true
 
-  '@langchain/langgraph-sdk@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-sdk@71b7b0bd2ba61e71e3d8a1af512dd26fc4f3e7b8':
-    resolution: {tarball: https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-sdk@71b7b0bd2ba61e71e3d8a1af512dd26fc4f3e7b8}
+  '@langchain/langgraph-sdk@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-sdk@ea62da3d61586a249ec0911ac3b22d0e243b5ab1':
+    resolution: {tarball: https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-sdk@ea62da3d61586a249ec0911ac3b22d0e243b5ab1}
     version: 1.8.8
     peerDependencies:
       react: ^18 || ^19
@@ -3888,8 +3889,8 @@ packages:
       vue:
         optional: true
 
-  '@langchain/langgraph-ui@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-ui@71b7b0bd2ba61e71e3d8a1af512dd26fc4f3e7b8':
-    resolution: {tarball: https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-ui@71b7b0bd2ba61e71e3d8a1af512dd26fc4f3e7b8}
+  '@langchain/langgraph-ui@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-ui@ea62da3d61586a249ec0911ac3b22d0e243b5ab1':
+    resolution: {tarball: https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-ui@ea62da3d61586a249ec0911ac3b22d0e243b5ab1}
     version: 1.1.17
     engines: {node: ^18.19.0 || >=20.16.0}
     hasBin: true
@@ -3916,8 +3917,8 @@ packages:
       zod-to-json-schema:
         optional: true
 
-  '@langchain/langgraph@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph@71b7b0b':
-    resolution: {tarball: https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph@71b7b0b}
+  '@langchain/langgraph@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph@ea62da3':
+    resolution: {tarball: https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph@ea62da3}
     version: 1.2.8
     engines: {node: '>=18'}
     peerDependencies:
@@ -3934,8 +3935,8 @@ packages:
     peerDependencies:
       '@langchain/core': workspace:^
 
-  '@langchain/protocol@0.0.12':
-    resolution: {integrity: sha512-BvWqm74n6cyY8cqRxeaV4WGe4aizA5Nmr3K5ACEvTd1MjkX5PyhCuMZouyR328xnT0mH0cnXlIUEc1cLioGjKA==}
+  '@langchain/protocol@0.0.13':
+    resolution: {integrity: sha512-DDBmP5XEJEtt9lHXUVCuaSqRo5Vqz5hQbsTIkcB5ILgK+ymrv4d9k5fxLinap/uewWnMDUbyYCeh3jid5NBRVA==}
 
   '@layerup/layerup-security@1.6.0':
     resolution: {integrity: sha512-HSBZobDxgi0aHrEoN49RwLSbv60614upoE+noAR/nlysp8K1H1mu9EBw2cY5YTk6XbmEqEjddu9dMPb71NABMA==}
@@ -12673,14 +12674,14 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  '@browserbasehq/stagehand@1.14.0(@playwright/test@1.59.1)(bufferutil@4.1.0)(deepmerge@4.3.1)(dotenv@17.4.2)(encoding@0.1.13)(openai@6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6))(zod@4.3.6)':
+  '@browserbasehq/stagehand@1.14.0(@playwright/test@1.59.1)(bufferutil@4.1.0)(deepmerge@4.3.1)(dotenv@17.4.2)(encoding@0.1.13)(openai@6.34.0(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6))(zod@4.3.6)':
     dependencies:
       '@anthropic-ai/sdk': 0.27.3(encoding@0.1.13)
       '@browserbasehq/sdk': 2.10.0(encoding@0.1.13)
       '@playwright/test': 1.59.1
       deepmerge: 4.3.1
       dotenv: 17.4.2
-      openai: 6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6)
+      openai: 6.34.0(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6)
       ws: 8.20.0(bufferutil@4.1.0)
       zod: 4.3.6
       zod-to-json-schema: 3.25.2(zod@4.3.6)
@@ -13792,17 +13793,17 @@ snapshots:
       '@lancedb/lancedb-win32-arm64-msvc': 0.27.2
       '@lancedb/lancedb-win32-x64-msvc': 0.27.2
 
-  '@langchain/langgraph-api@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-api@71b7b0b(@langchain/core@libs+langchain-core)(@langchain/langgraph-checkpoint@1.0.1(@langchain/core@libs+langchain-core))(@langchain/langgraph-sdk@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-sdk@71b7b0b(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(@langchain/langgraph@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph@71b7b0b(@langchain/core@libs+langchain-core)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(zod-to-json-schema@3.25.2(zod@4.3.6))(zod@4.3.6))(@opentelemetry/api@1.9.1)(bufferutil@4.1.0)(openai@6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6))(typescript@5.8.3)(ws@8.20.0(bufferutil@4.1.0))':
+  '@langchain/langgraph-api@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-api@ea62da3(@langchain/core@libs+langchain-core)(@langchain/langgraph-checkpoint@1.0.1(@langchain/core@libs+langchain-core))(@langchain/langgraph-sdk@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-sdk@ea62da3(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(@langchain/langgraph@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph@ea62da3(@langchain/core@libs+langchain-core)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(zod-to-json-schema@3.25.2(zod@4.3.6))(zod@4.3.6))(@opentelemetry/api@1.9.1)(bufferutil@4.1.0)(openai@6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6))(typescript@5.8.3)(ws@8.20.0(bufferutil@4.1.0))':
     dependencies:
       '@babel/code-frame': 7.29.0
       '@hono/node-server': 2.0.0(hono@4.12.14)
       '@hono/node-ws': 1.3.0(@hono/node-server@2.0.0(hono@4.12.14))(bufferutil@4.1.0)(hono@4.12.14)
       '@hono/zod-validator': 0.7.6(hono@4.12.14)(zod@4.3.6)
       '@langchain/core': link:libs/langchain-core
-      '@langchain/langgraph': https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph@71b7b0b(@langchain/core@libs+langchain-core)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(zod-to-json-schema@3.25.2(zod@4.3.6))(zod@4.3.6)
+      '@langchain/langgraph': https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph@ea62da3(@langchain/core@libs+langchain-core)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(zod-to-json-schema@3.25.2(zod@4.3.6))(zod@4.3.6)
       '@langchain/langgraph-checkpoint': 1.0.1(@langchain/core@libs+langchain-core)
-      '@langchain/langgraph-ui': https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-ui@71b7b0bd2ba61e71e3d8a1af512dd26fc4f3e7b8
-      '@langchain/protocol': 0.0.12
+      '@langchain/langgraph-ui': https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-ui@ea62da3d61586a249ec0911ac3b22d0e243b5ab1
+      '@langchain/protocol': 0.0.13
       '@types/json-schema': 7.0.15
       '@typescript/vfs': 1.6.4(typescript@5.8.3)
       dedent: 1.7.2
@@ -13821,7 +13822,7 @@ snapshots:
       winston-console-format: 1.0.8
       zod: 4.3.6
     optionalDependencies:
-      '@langchain/langgraph-sdk': https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-sdk@71b7b0b(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+      '@langchain/langgraph-sdk': https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-sdk@ea62da3(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
     transitivePeerDependencies:
       - '@opentelemetry/api'
       - '@opentelemetry/exporter-trace-otlp-proto'
@@ -13843,7 +13844,7 @@ snapshots:
       '@langchain/core': link:libs/langchain-core
       uuid: 10.0.0
 
-  '@langchain/langgraph-checkpoint@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-checkpoint@71b7b0bd2ba61e71e3d8a1af512dd26fc4f3e7b8(@langchain/core@libs+langchain-core)':
+  '@langchain/langgraph-checkpoint@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-checkpoint@ea62da3d61586a249ec0911ac3b22d0e243b5ab1(@langchain/core@libs+langchain-core)':
     dependencies:
       '@langchain/core': link:libs/langchain-core
       uuid: 10.0.0
@@ -13870,10 +13871,10 @@ snapshots:
       react: 19.2.5
       react-dom: 19.2.5(react@19.2.5)
 
-  '@langchain/langgraph-sdk@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-sdk@71b7b0b(react-dom@19.2.5(react@19.2.5))(react@19.2.5)':
+  '@langchain/langgraph-sdk@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-sdk@ea62da3(react-dom@19.2.5(react@19.2.5))(react@19.2.5)':
     dependencies:
       '@langchain/core': link:libs/langchain-core
-      '@langchain/protocol': 0.0.12
+      '@langchain/protocol': 0.0.13
       '@types/json-schema': 7.0.15
       p-queue: 9.1.2
       p-retry: 7.1.1
@@ -13882,10 +13883,10 @@ snapshots:
       react: 19.2.5
       react-dom: 19.2.5(react@19.2.5)
 
-  '@langchain/langgraph-sdk@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-sdk@71b7b0bd2ba61e71e3d8a1af512dd26fc4f3e7b8(react-dom@19.2.5(react@19.2.5))(react@19.2.5)':
+  '@langchain/langgraph-sdk@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-sdk@ea62da3d61586a249ec0911ac3b22d0e243b5ab1(react-dom@19.2.5(react@19.2.5))(react@19.2.5)':
     dependencies:
       '@langchain/core': link:libs/langchain-core
-      '@langchain/protocol': 0.0.12
+      '@langchain/protocol': 0.0.13
       '@types/json-schema': 7.0.15
       p-queue: 9.1.2
       p-retry: 7.1.1
@@ -13894,7 +13895,7 @@ snapshots:
       react: 19.2.5
       react-dom: 19.2.5(react@19.2.5)
 
-  '@langchain/langgraph-ui@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-ui@71b7b0bd2ba61e71e3d8a1af512dd26fc4f3e7b8':
+  '@langchain/langgraph-ui@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-ui@ea62da3d61586a249ec0911ac3b22d0e243b5ab1':
     dependencies:
       '@commander-js/extra-typings': 13.1.0(commander@13.1.0)
       commander: 13.1.0
@@ -13931,12 +13932,12 @@ snapshots:
       - svelte
       - vue
 
-  '@langchain/langgraph@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph@71b7b0b(@langchain/core@libs+langchain-core)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(zod-to-json-schema@3.25.2(zod@4.3.6))(zod@4.3.6)':
+  '@langchain/langgraph@https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph@ea62da3(@langchain/core@libs+langchain-core)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(zod-to-json-schema@3.25.2(zod@4.3.6))(zod@4.3.6)':
     dependencies:
       '@langchain/core': link:libs/langchain-core
-      '@langchain/langgraph-checkpoint': https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-checkpoint@71b7b0bd2ba61e71e3d8a1af512dd26fc4f3e7b8(@langchain/core@libs+langchain-core)
-      '@langchain/langgraph-sdk': https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-sdk@71b7b0bd2ba61e71e3d8a1af512dd26fc4f3e7b8(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
-      '@langchain/protocol': 0.0.12
+      '@langchain/langgraph-checkpoint': https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-checkpoint@ea62da3d61586a249ec0911ac3b22d0e243b5ab1(@langchain/core@libs+langchain-core)
+      '@langchain/langgraph-sdk': https://pkg.pr.new/langchain-ai/langgraphjs/@langchain/langgraph-sdk@ea62da3d61586a249ec0911ac3b22d0e243b5ab1(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+      '@langchain/protocol': 0.0.13
       '@standard-schema/spec': 1.1.0
       uuid: 10.0.0
       zod: 4.3.6
@@ -13959,7 +13960,7 @@ snapshots:
       - encoding
       - ws
 
-  '@langchain/protocol@0.0.12': {}
+  '@langchain/protocol@0.0.13': {}
 
   '@layerup/layerup-security@1.6.0(encoding@0.1.13)(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6)':
     dependencies:
@@ -16626,7 +16627,7 @@ snapshots:
   chromadb-js-bindings-win32-x64-msvc@1.3.3:
     optional: true
 
-  chromadb@1.10.5(@google/generative-ai@0.7.1)(cohere-ai@7.21.0)(encoding@0.1.13)(ollama@0.6.3)(openai@6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6)):
+  chromadb@1.10.5(@google/generative-ai@0.7.1)(cohere-ai@7.21.0)(encoding@0.1.13)(ollama@0.6.3)(openai@6.34.0(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6)):
     dependencies:
       cliui: 8.0.1
       isomorphic-fetch: 3.0.0(encoding@0.1.13)
@@ -16634,7 +16635,7 @@ snapshots:
       '@google/generative-ai': 0.7.1
       cohere-ai: 7.21.0
       ollama: 0.6.3
-      openai: 6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6)
+      openai: 6.34.0(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6)
     transitivePeerDependencies:
       - encoding
 
@@ -17339,22 +17340,22 @@ snapshots:
     dependencies:
       eventsource-parser: 3.0.8
 
-  exa-js@1.10.2(encoding@0.1.13)(ws@8.20.0(bufferutil@4.1.0)):
+  exa-js@1.10.2(encoding@0.1.13)(ws@5.2.4(bufferutil@4.1.0)):
     dependencies:
       cross-fetch: 4.1.0(encoding@0.1.13)
       dotenv: 16.4.7
-      openai: 5.23.2(ws@8.20.0(bufferutil@4.1.0))(zod@3.25.76)
+      openai: 5.23.2(ws@5.2.4(bufferutil@4.1.0))(zod@3.25.76)
       zod: 3.25.76
       zod-to-json-schema: 3.25.2(zod@3.25.76)
     transitivePeerDependencies:
       - encoding
       - ws
 
-  exa-js@2.11.0(encoding@0.1.13)(ws@5.2.4(bufferutil@4.1.0)):
+  exa-js@2.11.0(encoding@0.1.13)(ws@8.20.0(bufferutil@4.1.0)):
     dependencies:
       cross-fetch: 4.1.0(encoding@0.1.13)
       dotenv: 16.4.7
-      openai: 5.23.2(ws@5.2.4(bufferutil@4.1.0))(zod@3.25.76)
+      openai: 5.23.2(ws@8.20.0(bufferutil@4.1.0))(zod@3.25.76)
       zod: 3.25.76
       zod-to-json-schema: 3.25.2(zod@3.25.76)
     transitivePeerDependencies:
@@ -18812,6 +18813,7 @@ snapshots:
       '@opentelemetry/api': 1.9.1
       openai: 6.34.0(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6)
       ws: 5.2.4(bufferutil@4.1.0)
+    optional: true
 
   langsmith@0.5.21(@opentelemetry/api@1.9.1)(openai@6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6))(ws@8.20.0(bufferutil@4.1.0)):
     dependencies:
@@ -19098,7 +19100,7 @@ snapshots:
 
   media-typer@1.1.0: {}
 
-  mem0ai@2.4.6(@anthropic-ai/sdk@0.90.0(zod@4.3.6))(@azure/identity@4.13.1)(@azure/search-documents@12.2.0)(@cloudflare/workers-types@4.20260422.1)(@google/genai@1.50.1(@modelcontextprotocol/sdk@1.29.0(@cfworker/json-schema@4.1.1)(zod@4.3.6))(bufferutil@4.1.0))(@langchain/core@libs+langchain-core)(@mistralai/mistralai@1.15.1(bufferutil@4.1.0))(@qdrant/js-client-rest@1.17.0(typescript@5.8.3))(@supabase/supabase-js@2.104.0(bufferutil@4.1.0))(@types/jest@30.0.0)(@types/pg@8.20.0)(better-sqlite3@12.9.0)(cloudflare@4.5.0(encoding@0.1.13))(encoding@0.1.13)(groq-sdk@1.1.2)(neo4j-driver@6.0.1)(ollama@0.6.3)(pg@8.20.0)(redis@4.7.1)(ws@8.20.0(bufferutil@4.1.0)):
+  mem0ai@2.4.6(@anthropic-ai/sdk@0.90.0(zod@4.3.6))(@azure/identity@4.13.1)(@azure/search-documents@12.2.0)(@cloudflare/workers-types@4.20260422.1)(@google/genai@1.50.1(@modelcontextprotocol/sdk@1.29.0(@cfworker/json-schema@4.1.1)(zod@4.3.6))(bufferutil@4.1.0))(@langchain/core@libs+langchain-core)(@mistralai/mistralai@1.15.1(bufferutil@4.1.0))(@qdrant/js-client-rest@1.17.0(typescript@5.8.3))(@supabase/supabase-js@2.104.0(bufferutil@4.1.0))(@types/jest@30.0.0)(@types/pg@8.20.0)(better-sqlite3@12.9.0)(cloudflare@4.5.0(encoding@0.1.13))(encoding@0.1.13)(groq-sdk@1.1.2)(neo4j-driver@6.0.1)(ollama@0.6.3)(pg@8.20.0)(redis@4.7.1)(ws@5.2.4(bufferutil@4.1.0)):
     dependencies:
       '@anthropic-ai/sdk': 0.90.0(zod@4.3.6)
       '@azure/identity': 4.13.1
@@ -19117,7 +19119,7 @@ snapshots:
       groq-sdk: 1.1.2
       neo4j-driver: 6.0.1
       ollama: 0.6.3
-      openai: 4.104.0(encoding@0.1.13)(ws@8.20.0(bufferutil@4.1.0))(zod@3.25.76)
+      openai: 4.104.0(encoding@0.1.13)(ws@5.2.4(bufferutil@4.1.0))(zod@3.25.76)
       pg: 8.20.0
       redis: 4.7.1
       uuid: 9.0.1
@@ -19127,7 +19129,7 @@ snapshots:
       - encoding
       - ws
 
-  mem0ai@2.4.6(@anthropic-ai/sdk@0.90.0(zod@4.3.6))(@azure/identity@4.13.1)(@azure/search-documents@12.2.0)(@cloudflare/workers-types@4.20260422.1)(@google/genai@1.50.1(@modelcontextprotocol/sdk@1.29.0(@cfworker/json-schema@4.1.1)(zod@4.3.6))(bufferutil@4.1.0))(@langchain/core@libs+langchain-core)(@mistralai/mistralai@1.15.1(bufferutil@4.1.0))(@qdrant/js-client-rest@1.17.0(typescript@6.0.3))(@supabase/supabase-js@2.104.0(bufferutil@4.1.0))(@types/jest@30.0.0)(@types/pg@8.20.0)(better-sqlite3@12.9.0)(cloudflare@4.5.0(encoding@0.1.13))(encoding@0.1.13)(groq-sdk@1.1.2)(neo4j-driver@6.0.1)(ollama@0.6.3)(pg@8.20.0)(redis@5.12.1(@opentelemetry/api@1.9.1))(ws@5.2.4(bufferutil@4.1.0)):
+  mem0ai@2.4.6(@anthropic-ai/sdk@0.90.0(zod@4.3.6))(@azure/identity@4.13.1)(@azure/search-documents@12.2.0)(@cloudflare/workers-types@4.20260422.1)(@google/genai@1.50.1(@modelcontextprotocol/sdk@1.29.0(@cfworker/json-schema@4.1.1)(zod@4.3.6))(bufferutil@4.1.0))(@langchain/core@libs+langchain-core)(@mistralai/mistralai@1.15.1(bufferutil@4.1.0))(@qdrant/js-client-rest@1.17.0(typescript@6.0.3))(@supabase/supabase-js@2.104.0(bufferutil@4.1.0))(@types/jest@30.0.0)(@types/pg@8.20.0)(better-sqlite3@12.9.0)(cloudflare@4.5.0(encoding@0.1.13))(encoding@0.1.13)(groq-sdk@1.1.2)(neo4j-driver@6.0.1)(ollama@0.6.3)(pg@8.20.0)(redis@5.12.1(@opentelemetry/api@1.9.1))(ws@8.20.0(bufferutil@4.1.0)):
     dependencies:
       '@anthropic-ai/sdk': 0.90.0(zod@4.3.6)
       '@azure/identity': 4.13.1
@@ -19146,7 +19148,7 @@ snapshots:
       groq-sdk: 1.1.2
       neo4j-driver: 6.0.1
       ollama: 0.6.3
-      openai: 4.104.0(encoding@0.1.13)(ws@5.2.4(bufferutil@4.1.0))(zod@3.25.76)
+      openai: 4.104.0(encoding@0.1.13)(ws@8.20.0(bufferutil@4.1.0))(zod@3.25.76)
       pg: 8.20.0
       redis: 5.12.1(@opentelemetry/api@1.9.1)
       uuid: 9.0.1
